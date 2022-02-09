@@ -1,12 +1,75 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+*{
+    background-color: grey;
+    list-style: none;
+}
+.container{
+    width:40%;
+    background-color: rgb(95, 83, 83);
+    height:100%;
+    padding-top:5%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:2%;
+}
+.encabezado{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:3%;
+    background-color: rgb(95, 83, 83);
+}
+.cuadroTexto{
+    margin-left:auto;
+    margin-right:auto;
+    padding:2%;
+    width:50%;
+    background-color: rgb(95, 83, 83);
+}
+.inputText{
+    color:black;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: white;
+}
+h1, h5{
+    text-align: center;
+    padding-bottom: 2%;
+    background-color:rgb(95, 83, 83)
+}
+.button{
+    float:right;
+    opacity:0%;
+    font-size:35px;
+    background-color: rgb(201, 200, 199);
+    cursor: pointer;
+}
+.tarea{
+    margin-left:auto;
+    margin-right:auto;
+    font-size:35px;
+}
+.linesHead{
+    background-color: rgb(201, 200, 199);
+    width:80%;
+    border-color:black;
+    margin-left:10%;
+    margin-right:10%;
+}
+.button:hover{
+    opacity:100%;
+}
+input{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    height:50px;
+}
+.lines{
+    color:rgb(95, 83, 83);
+    background-color: rgb(201, 200, 199);
+    padding:2%;
+    padding-top:5px;
+}
+.tarea{
+    background-color: rgb(201, 200, 199);
+}
